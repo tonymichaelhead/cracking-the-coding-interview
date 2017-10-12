@@ -5,7 +5,7 @@ Given two strings, sl and s2, write code to check if s2 is a rotation of sl usin
  Hints:#34,#88, #704
 */
 
-const isSubstring = (s1, s2) => {
+const isRotated = (s1, s2) => {
     const doubledString = s2 + s2;
     return doubledString.includes(s1);
 }
